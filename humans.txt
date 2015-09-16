@@ -1,0 +1,19 @@
+/* Personen */
+Website Inhaber: Joerg Fink
+Ort: Stuttgart, Deutschland
+
+Umsetzung Website: Andre Reus
+Ort: Stuttgart, Deutschland
+
+/* Website */
+Standards: HTML5, CSS3, PHP, JavaScript
+Komponenten: Open Sans Schriftart, html5shiv fuer IE, PhotoSwipe, Smooth Scroll
+Verwendete Software: Sublime Text, MAMP (fuer Windows), LifeReload, FileZilla, Photoshop, IrfanView Thumbnails
+
+Kompabilitaet: Retina Displays, Smartphones/Tablets (Responsive), unterschiedliche Browser
+Merkmale: Minimalistisches Design mit Fokus auf schnelle Navigation fuer gute User Experience (UX)
+
+/* Was ist humans.txt? */
+Es ist eine Initiative, um die Leute hinter einer Webseite bekannt zu machen.
+Es ist eine TXT-Datei, die Informationen ueber die verschiedenen Leute bereit haelt, die beim Bau der Webseite mitgewirkt haben.
+Mehr Infos: http://humanstxt.org

@@ -1,0 +1,534 @@
+/* Schriftarten Import */
+@font-face {
+  font-family: 'open_sanslight';
+  src: url('../fonts/opensans-light/opensans-light.eot');
+  src: url('../fonts/opensans-light/opensans-light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-light/opensans-light.woff') format('woff'),
+    url('../fonts/opensans-light/opensans-light.ttf') format('truetype'),
+    url('../fonts/opensans-light/opensans-light.svg#open_sanslight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('../fonts/opensans-regular/opensans-regular.eot');
+  src: url('../fonts/opensans-regular/opensans-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-regular/opensans-regular.woff') format('woff'),
+    url('../fonts/opensans-regular/opensans-regular.ttf') format('truetype'),
+    url('../fonts/opensans-regular/opensans-regular.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('../fonts/opensans-bold/opensans-bold.eot');
+  src: url('../fonts/opensans-bold/opensans-bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-bold/opensans-bold.woff') format('woff'),
+    url('../fonts/opensans-bold/opensans-bold.ttf') format('truetype'),
+    url('../fonts/opensans-bold/opensans-bold.svg#open_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url('../fonts/opensans-semibold/opensans-semibold.eot');
+  src: url('../fonts/opensans-semibold/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-semibold/opensans-semibold.woff') format('woff'),
+    url('../fonts/opensans-semibold/opensans-semibold.ttf') format('truetype'),
+    url('../fonts/opensans-semibold/opensans-semibold.svg#open_sanssemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+}
+
+/* IE Fix */
+a img {
+  border: 0;
+}
+
+/* Schriftarten Styles */
+#logo > h1 {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  line-height: 25px;
+}
+
+#logo > h2 {
+  font-family: 'open_sanslight', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.8em;
+  color: #fff;
+  letter-spacing: .2em;
+  line-height: 15px;
+  margin-left: -3px;
+}
+
+nav > a {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2em;
+  color: #252525;
+  letter-spacing: .05em;
+  line-height: 54px;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+nav > a:hover {
+  color: #5a9aa8;
+  background: #e0e0e0;
+}
+
+#text1 {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.4em;
+  color: #252525;
+  margin: 150px 0 80px;
+}
+
+#text2 {
+  font-family: 'open_sanslight', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3em;
+  color: #252525;
+  margin-bottom: 80px;
+}
+
+#text3 {
+  font-family: 'open_sanslight', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  color: #252525;
+  margin-bottom: 80px;
+}
+
+#intro > a {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #252525;
+  padding: 8px 16px;
+  line-height: 50px;
+  color: #fff;
+  background: #5a9aa8;
+}
+
+#intro > a:hover {
+  background: #538c99;
+}
+
+.wrapper-blue h3 {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.8em;
+  color: #eaeaea;
+  line-height: 160px;
+}
+
+.wrapper-blue li {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.4em;
+  color: #eaeaea;
+  line-height: 50px;
+  padding-left: 10px;
+}
+
+.wrapper-gray h3 {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.8em;
+  color: #5a9aa8;
+  line-height: 160px;
+}
+
+.wrapper-gray li {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.4em;
+  color: #5a9aa8;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+.wrapper-white2 h3 {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.8em;
+  color: #5a9aa8;
+  line-height: 160px;
+}
+
+.wrapper-gray2 h3 {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.8em;
+  color: #5a9aa8;
+  line-height: 160px;
+}
+
+.wrapper-gray2 p {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.4em;
+}
+
+.bold {
+  font-family: 'open_sanssemibold', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper-white2 p {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6em;
+  color: #252525;
+  line-height: 60px;
+  text-align: center;
+}
+
+.dropdown > div > a {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.1em;
+  color: #252525;
+  line-height: 35px;
+  display: block;
+  width: 185px;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+.dropdown > div > a:hover {
+  background: #eaeaea;
+  color: #5a9aa8;
+}
+
+.wrapper-gray2 .kontakt-small {
+  font-size: 0.8em;
+}
+
+.wrapper-gray2 .kontakt-small a {
+  text-decoration: none;
+  color: #2980b9;
+}
+
+.wrapper-gray2 .kontakt-small a:hover {
+  color: #3498db;
+}
+
+/* Layout Startseite */
+header {
+  position: fixed;
+  min-height: 54px;
+  width: 100%;
+  top: 0;
+  background: #eaeaea;
+  overflow: hidden;
+  z-index: 100;
+}
+
+header > section {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#logo {
+  padding: 6px 10px 8px 18px;
+  float: left;
+  background: #5a9aa8;
+}
+
+#logo:hover {
+  background: #538c99;
+}
+
+nav {
+  float: right;
+}
+
+.wrapper-white {
+  margin-top: 54px;
+}
+
+.wrapper-white2 {
+  margin: 54px 0 40px;
+}
+
+.wrapper-blue {
+  padding: 20px 0 60px;
+  background: #5a9aa8;
+}
+
+.wrapper-gray {
+  padding: 20px 0 60px;
+  background: #eaeaea;
+}
+
+.wrapper-gray2 {
+  padding: 20px 0 60px;
+  background: #eaeaea;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.content:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrapper-white img {
+  float: left;
+  margin-right: 40px;
+}
+
+.dropdown {
+  float: left;
+}
+
+.dropdown > a {
+  float: left;
+  margin-right: 20px;
+  text-decoration: none;
+  height: 595px;
+}
+
+.dropdown img {
+  border: 10px solid #fff;
+}
+
+.dropdown:hover img {
+  border: 10px solid #5a9aa8;
+}
+
+.dropdown:hover a > p {
+  color: #5a9aa8;
+}
+
+.wrapper-white2 .last {
+  margin: 0;
+}
+
+#intro {
+  width: 440px;
+  float: left;
+}
+
+.wrapper-blue ul {
+  padding-left: 26px;
+}
+
+.wrapper-gray ul {
+  padding-left: 26px;
+}
+
+#kontakt-text {
+  float: left;
+}
+
+.wrapper-gray2 iframe {
+  float: right;
+  margin-top: 60px;
+}
+
+.hide {
+  display: none;
+}
+
+/* Dropdown */
+.dropdown > div {
+  display: none;
+  position: absolute;
+  margin-top: 355px;
+  padding: 10px 0;
+  width: 205px;
+}
+
+.dropdown > div > a {
+  text-decoration: none;
+}
+
+.dropdown:hover > div {
+  display: block;
+}
+
+/* Mobile Layout */
+@media screen and (max-width: 1000px) {
+  .wrapper-white > .content {
+    padding: 0;
+  }
+
+  #intro {
+    width: 280px;
+  }
+
+  #text1 {
+    margin: 200px 0 20px;
+    font-size: 1.6em;
+  }
+
+  #text2 {
+    margin: 20px 0;
+    font-size: 2em;
+  }
+
+  #text3 {
+    margin: 20px 0;
+    font-size: 1.2em;
+  }
+
+  #intro > a {
+    font-size: 1.4em;
+  }
+
+  .wrapper-blue > .content,
+  .wrapper-gray > .content,
+  .wrapper-white2 > .content,
+  .wrapper-gray2 > .content {
+    padding: 20px;
+  }
+
+  .dropdown > div {
+    display: block;
+  }
+
+  .dropdown > a {
+    border: 2px solid #eaeaea;
+    margin-bottom: 20px;
+  }
+
+  .dropdown > div > a {
+    margin-left: 2px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  nav {
+    display: none;
+  }
+
+  #intro {
+    position: absolute;
+    padding: 0 20px;
+    width: 440px;
+  }
+
+  #text1 {
+    margin: 150px 0 80px;
+    font-size: 2.4em;
+    color: #fff;
+  }
+
+  #text2 {
+    margin-bottom: 80px;
+    font-size: 3em;
+    color: #fff;
+  }
+
+  #text3 {
+    margin-bottom: 80px;
+    font-size: 2em;
+    color: #fff;
+  }
+
+  #intro > a {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  iframe {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper-white img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #intro {
+    width: 280px;
+  }
+
+  #text1 {
+    margin: 200px 0 20px;
+    font-size: 1.6em;
+  }
+
+  #text2 {
+    margin: 20px 0;
+    font-size: 2em;
+  }
+
+  #text3 {
+    margin: 20px 0;
+    font-size: 1.2em;
+  }
+
+  #intro > a {
+    font-size: 1.4em;
+  }
+
+  .wrapper-blue h3,
+  .wrapper-gray h3,
+  .wrapper-white2 h3,
+  .wrapper-gray2 h3 {
+    font-size: 2em;
+    line-height: 100px;
+  }
+
+  .wrapper-blue li,
+  .wrapper-gray li {
+    font-size: 1.2em;
+    line-height: 35px;
+  }
+
+  .wrapper-gray2 p {
+    font-size: 1.2em;
+  }
+
+  .wrapper-white2 {
+    margin: 20px 0 0;
+  }
+
+  .wrapper-gray2 {
+    padding: 20px 0 40px;
+  }
+}
